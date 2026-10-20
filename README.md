@@ -4,6 +4,10 @@ A clipboard manager for macOS, inspired by [Ditto](https://ditto-cp.sourceforge.
 
 DittoMac lives in your menu bar and saves everything you copy. Open it with a shortcut, search your history and paste any past item into the app you are using. Your history never leaves your Mac.
 
+<p align="center">
+  <img src="docs/screenshots/popup.png" alt="DittoMac clipboard history popup" width="420">
+</p>
+
 ## Features
 
 - **Clipboard history:** saves text, rich text, HTML, images and files, plus the app each item came from.
@@ -26,11 +30,19 @@ Privacy is the core design choice.
 - **Excluded apps:** copies made in apps you choose, such as a password manager, are never saved.
 - **Optional LAN sync:** sync history between your own Macs over your local network. Macs find each other with Bonjour, connect directly and encrypt every item (AES-GCM) with a passphrase you set. Nothing goes through a server.
 
+## Preferences
+
+| General | Groups |
+| --- | --- |
+| <img src="docs/screenshots/general.png" alt="General preferences: launch at login, shortcut and history limits" width="400"> | <img src="docs/screenshots/groups.png" alt="Groups preferences" width="400"> |
+| **Excluded Apps** | **LAN Sync** |
+| <img src="docs/screenshots/excluded-apps.png" alt="Excluded apps preferences" width="400"> | <img src="docs/screenshots/lan-sync.png" alt="LAN sync preferences" width="400"> |
+
 ## Install
 
 Requires macOS 13 Ventura or later.
 
-1. Download the latest `DittoMac-x.x.x.dmg` from [Releases](../../releases).
+1. Download the latest `DittoMac-x.x.x.dmg` from [Releases](../../releases/latest).
 2. Open the DMG and drag **DittoMac** into **Applications**.
 3. Open it for the first time. DittoMac is not notarized by Apple, so macOS blocks a normal double-click:
    - **macOS 13 and 14:** right-click (or Control-click) DittoMac in Applications, choose **Open**, then click **Open** again.
